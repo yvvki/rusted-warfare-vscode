@@ -3,6 +3,7 @@
   "displayName": "Rusted Warfare Support",
   "description": "Workspace detection, syntax highlighting, code completion and format checker for Rusted Warfare",
   "version": "0.0.1",
+  "packageManager": "yarn@4.0.2",
   "engines": {
     "vscode": "^1.85.0"
   },
