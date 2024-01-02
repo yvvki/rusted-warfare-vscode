@@ -1,0 +1,12 @@
+{
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	"xo.enable": true,
+	"xo.format.enable": true,
+	"[javascript]": {
+		"editor.defaultFormatter": "samverschueren.linter-xo"
+	}
+}
