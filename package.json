@@ -32,5 +32,8 @@
         "path": "./syntaxes/rw.tmLanguage.json"
       }
     ]
+  },
+  "devDependencies": {
+    "xo": "^0.56.0"
   }
 }
