@@ -10,16 +10,27 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "rw",
-      "aliases": ["Rusted Warfare", "rw"],
-      "extensions": [".txt",".ini",".template"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "rw",
-      "scopeName": "source.ini.rw",
-      "path": "./syntaxes/rw.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "rw",
+        "aliases": [
+          "Rusted Warfare",
+          "rw"
+        ],
+        "extensions": [
+          ".txt",
+          ".ini",
+          ".template"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rw",
+        "scopeName": "source.ini.rw",
+        "path": "./syntaxes/rw.tmLanguage.json"
+      }
+    ]
   }
 }
