@@ -48,7 +48,12 @@
 			}
 		]
 	},
+	"scripts": {
+		"package": "yarn run vsce package --no-yarn --no-dependencies",
+		"publish": "yarn run vsce publish --no-yarn --no-dependencies"
+	},
 	"devDependencies": {
+		"@vscode/vsce": "^2.22.0",
 		"xo": "^0.56.0"
 	}
 }
