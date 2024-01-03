@@ -1,65 +1,33 @@
-# rusted-warfare-vscode README
+# Rusted Warfare Support
 
-This is the README for your extension "rusted-warfare-vscode". After writing up a brief description, we recommend including the following sections.
+A [VSCode extension](https://marketplace.visualstudio.com/VSCode) that provides workspace detection, syntax
+highlighting, code completion and format checker
+for [Rusted Warfare](http://corrodinggames.com/rusted_warfare).
+
+[![Rusted Warfare](https://corrodinggames.com/images/rw-title.png)](https://corrodinggames.com/rusted_warfare)
+
+[![Website](https://img.shields.io/badge/Website-000)](http://corrodinggames.com/rusted_warfare)
+[![Steam](https://img.shields.io/badge/Steam-000?logo=steam)](https://store.steampowered.com/app/647960/Rusted_Warfare__RTS/)
+[![Google Play](https://img.shields.io/badge/Google%20Play-000?logo=googleplay)](https://play.google.com/store/apps/details?id=com.corrodinggames.rts&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)
+[![App Store](https://img.shields.io/badge/App%20Store-000?logo=apple)](https://apps.apple.com/au/app/rusted-warfare-rts/id1514329124)
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+(Will be) powered by the [Rusted Warfare Language Server](https://github.com/yvvki/RWLS.git).
 
-For example if there is an image subfolder under your extension project workspace:
+![Screenshot](docs/screenshot.png)
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+> ## ⚠️ IN DEVELOPMENT! 
+>
+> Currently is being heavily developed. Contribution is welcome!
+> 
+> Check out the [issues](https://github.com/yvvki/rusted-warfare-vscode/issues)
+> and [pull requests](https://github.com/yvvki/rusted-warfare-vscode/pulls).
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+See the [Changelog](CHANGELOG.md).
 
-### 1.0.0
+## License
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This project is distributed under the [MIT License](LICENSE).
