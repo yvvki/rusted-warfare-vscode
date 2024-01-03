@@ -2,6 +2,10 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Rusted Warfare",
 	"scopeName": "source.ini.rw",
-	"patterns": [],
+	"patterns": [
+		{
+			"include": "source.ini"
+		}
+	],
 	"repository": {}
 }
