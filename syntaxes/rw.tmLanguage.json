@@ -5,7 +5,22 @@
 	"patterns": [
 		{
 			"include": "source.ini"
+		},
+		{
+			"include": "#key-value"
 		}
 	],
-	"repository": {}
+	"repository": {
+		"key-value": {
+			"match": "\\b([\\w_.-]+)\\b\\s*(:)",
+			"captures": {
+				"1": {
+					"name": "keyword.other.definition.ini"
+				},
+				"2": {
+					"name": "punctuation.separator.key-value.ini"
+				}
+			}
+		}
+	}
 }
