@@ -2,7 +2,7 @@
 	"name": "rusted-warfare-vscode",
 	"displayName": "Rusted Warfare Support",
 	"description": "Workspace detection, syntax highlighting, code completion and format checker for Rusted Warfare",
-	"version": "0.0.1",
+	"version": "0.1.0",
 	"homepage": "https://github.com/yvvki/rusted-warfare-vscode#readme",
 	"bugs": {
 		"url": "https://github.com/yvvki/rusted-warfare-vscode/issues"
@@ -12,6 +12,7 @@
 		"name": "Yuuki Rika",
 		"email": "yvvki@duck.com"
 	},
+	"publisher": "yvvki",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/yvvki/rusted-warfare-vscode.git"
