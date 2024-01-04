@@ -70,6 +70,9 @@
 		"bracketSpacing": false
 	},
 	"xo": {
-		"prettier": true
+		"prettier": true,
+		"ignores": [
+			"out/"
+		]
 	}
 }
