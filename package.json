@@ -55,5 +55,13 @@
 	"devDependencies": {
 		"@vscode/vsce": "^2.22.0",
 		"xo": "^0.56.0"
+	},
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"bracketSpacing": false
+	},
+	"xo": {
+		"prettier": true
 	}
 }
