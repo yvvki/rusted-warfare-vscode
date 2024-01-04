@@ -24,7 +24,15 @@
 	"categories": [
 		"Programming Languages"
 	],
+	"activationEvents": [],
+	"main": "./out/main.cjs",
 	"contributes": {
+		"commands": [
+			{
+				"command": "extension.helloWorld",
+				"title": "Hello World"
+			}
+		],
 		"languages": [
 			{
 				"id": "rw",
