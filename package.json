@@ -58,6 +58,7 @@
 	},
 	"scripts": {
 		"compile": "swc src --out-dir out --source-maps",
+		"watch": "swc src --out-dir out --source-maps --watch",
 		"vscode:prepublish": "yarn run compile",
 		"package": "vsce package --no-yarn --no-dependencies",
 		"publish": "vsce publish --no-yarn --no-dependencies"
@@ -66,6 +67,7 @@
 		"@swc/cli": "^0.1.63",
 		"@swc/core": "^1.3.102",
 		"@vscode/vsce": "^2.22.0",
+		"chokidar": "^3.5.3",
 		"xo": "^0.56.0"
 	},
 	"prettier": {
