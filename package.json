@@ -59,8 +59,8 @@
 	"scripts": {
 		"compile": "swc src --out-dir out --source-maps",
 		"vscode:prepublish": "yarn run compile",
-		"package": "vsce package --no-yarn --no-dependencies",
-		"publish": "vsce publish --no-yarn --no-dependencies"
+		"package": "npx @vscode/vsce package --no-yarn --no-dependencies",
+		"publish": "npx @vscode/vsce publish --no-yarn --no-dependencies"
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1",
