@@ -10,19 +10,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Initialized extension
-- Intergrated SWC #5
+- Intergrated SWC [#5](https://github.com/yvvki/rusted-warfare-vscode/issues/5)
 
 ### Changed
 
-- Moved XO and Prettier configuration to `package.json` #4
+- Moved XO and Prettier configuration to `package.json` [#4](https://github.com/yvvki/rusted-warfare-vscode/issues/4)
 
 ### Removed
 
-- Removed `@vscode/vsce` from `devDependencies` #12
+- Removed `@vscode/vsce` from `devDependencies` [#1]([https://github.com/yvvki/rusted-warfare-vscode/issues/12)
 
 ### Fixed
 
-- Fixed XO not properly linting #4
+- Fixed XO not properly linting [#4](https://github.com/yvvki/rusted-warfare-vscode/issues/4)
 
 ## [0.1.1] - 2024-1-3
 
