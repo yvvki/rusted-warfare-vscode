@@ -63,9 +63,9 @@
 		"publish": "vsce publish --no-yarn --no-dependencies"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1.63",
-		"@swc/core": "^1.3.102",
-		"xo": "^0.56.0"
+		"@swc/cli": "^0.1",
+		"@swc/core": "^1.3",
+		"xo": "^0.56"
 	},
 	"prettier": {
 		"useTabs": true,
