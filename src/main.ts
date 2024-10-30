@@ -1,9 +1,6 @@
 import * as vscode from "vscode";
 
-/**
- * @param {import('vscode').ExtensionContext} context
- */
-export function activate(context) {
+export function activate(context: vscode.ExtensionContext) {
 	console.log("Congratulations, Rusted Warfare Support is now active!");
 
 	const disposable = vscode.commands.registerCommand(
@@ -17,3 +14,5 @@ export function activate(context) {
 
 	context.subscriptions.push(disposable);
 }
+
+export function deactivate() {}
