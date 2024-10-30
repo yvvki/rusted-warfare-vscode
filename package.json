@@ -26,7 +26,7 @@
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.helloWorld",
+				"command": "extension.rw.helloWorld",
 				"title": "Hello World"
 			}
 		],
