@@ -56,14 +56,12 @@
 		]
 	},
 	"scripts": {
-		"compile": "swc src --out-dir out --source-maps",
+		"compile": "bun build src/main.js --outdir out --target node --format cjs --external vscode --sourcemap",
 		"vscode:prepublish": "bun run compile",
 		"package": "bunx @vscode/vsce package",
 		"publish": "bunx @vscode/vsce publish"
 	},
 	"devDependencies": {
-		"@swc/cli": "^0.1",
-		"@swc/core": "^1.3",
 		"xo": "^0.56"
 	},
 	"prettier": {
