@@ -54,6 +54,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
+		"@types/node": "20",
 		"@types/vscode": "^1.95.0"
 	}
 }
